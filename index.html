@@ -1,0 +1,885 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--=============== FAVICON ===============-->
+      <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+      <!--=============== REMIXICONS ===============-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="assets/css/styles.css">
+
+      <title>Sewmini umaranayaka Portfolio Website</title>
+   </head>
+   <body>
+      <!--==================== HEADER ====================-->
+      <header class="header" id="header">
+         <nav class="nav container">
+            <a href="#home" class="nav__logo">Sewmini Kumaranayaka</a>
+            <div class="nav__menu" id="nav-menu">
+               <ul class="nav__list">
+                  <li>
+                     <a href="#home" class="nav__link active-link">Home</a>
+                  </li>
+
+                  <li>
+                     <a href="#about" class="nav__link">About</a>
+                  </li>
+
+                  <li>
+                     <a href="#projects" class="nav__link">Projects</a>
+                  </li>
+
+                  <li>
+                     <a href="#resume" class="nav__link">Resume</a>
+                  </li>
+
+                  <li>
+                     <a href="#contact" class="nav__link">Contact</a>
+                  </li>
+               </ul>
+
+               <!--close button-->
+               <div class="nav__close" id="nav-close">
+                  <i class="ri-close-large-line"></i>
+               </div>
+            </div>
+         
+            <!--toggle menu-->
+         <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-menu-line"></i>
+         </div>
+         </nav>
+      </header>
+
+      <!--==================== MAIN ====================-->
+      <main class="main">
+         <!--==================== HOME ====================-->
+         <section class="home section" id="home">
+            <div class="home__container container grid">
+               <div class="home__content">
+                  <div class="home__image">
+                     <img src="assets/img/Pimage.png" alt="profile image" class="home__img">
+                  </div>
+
+                  <div class="home__social">
+                     <a href="https://www.linkedin.com/in/sewmini-kumaranayaka-b77631280/" target="_blank" class="home__link">
+                        <i class="ri-linkedin-box-fill"></i>
+                     </a>
+
+                     <a href="https://github.com/sewminikumaranayaka" target="_blank" class="home__link">
+                        <i class="ri-github-fill"></i>
+                     </a>
+
+                     <a href="https://medium.com/@sewminikumaranayaka13" target="_blank" class="home__link">
+                        <i class="ri-medium-line"></i>
+                     </a>
+                  </div>
+               </div>
+
+                  <div class="home__data grid">
+                     <p class="home__subtitle">
+                        <!--Insert the professions into the js file (HOME TYPED JS), then save.-->
+                        Hi, I'm a <span id="home-typed"></span>
+                     </p>
+
+                     <h1 class="home__title">Sewmini Kumaranayaka</h1>
+
+                     <p class="home__description">
+                        I am an aspiring Project Manager and Software Engineering undergraduate, 
+                        Google Project Management Certified, with a strong foundation in Agile and Scrum 
+                        methodologies. Specializing in planning and coordinating software projects from 
+                        concept to delivery, I excel in stakeholder communication, risk management, and team 
+                        collaboration. Alongside my project management focus, I bring hands-on experience in 
+                        Quality Assurance, including manual and automation testing, ensuring the delivery of 
+                        reliable and high-quality software. My technical background in AI-driven and full-stack 
+                        development enables me to effectively bridge the gap between technical teams and 
+                        business objectives, driving structured and successful project outcomes.
+                     </p>
+
+                     <div class="home__buttons">
+                        <a href="assets/pdf/Sewmini Kumaranayaka_CV.pdf" download="" target="_blank" class="button">Download CV</a>
+                        <a href="#projects" class="button button__ghost">Projects</a>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <!--==================== ABOUT ====================-->
+         <!--==================== ABOUT ====================-->
+<section class="about section" id="about">
+   <div class="about__container container grid">
+
+      <!-- LEFT SIDE -->
+      <div class="about__content">
+         <div class="about__data">
+            <h2 class="section__title">About Me</h2>
+
+            <p class="about__description" style="margin-bottom: 2rem;">
+               Google Project Management Certified Software Engineering undergraduate with 
+               strong knowledge of Agile and Scrum. Skilled in project coordination, stakeholder 
+               communication, and risk management, with hands-on experience in Quality Assurance 
+               including manual and automation testing. Familiar with AI-driven and full-stack 
+               development, focused on supporting efficient and high-quality project delivery.
+            </p>
+
+            <a href="#contact" class="button button__ghost">Contact Me</a>
+         </div>
+
+         <!-- What I'm Doing -->
+         <div class="about__skills">
+            <h3 class="about__subtitle">
+               <i class="ri-briefcase-4-fill"></i>
+               <span>What I'm Doing</span>
+            </h3>
+
+            <!--ul class="about__items">
+               <li class="about__item">Project Management</li>
+               <li class="about__item">Agile & Scrum</li>
+               <li class="about__item">Team Collaboration</li>
+               <li class="about__item">Quality Assurance</li>
+               <li class="about__item">Web Development</li>
+               <li class="about__item">Technical Documentation</li>
+            </ul-->
+
+            <div class="about__cards">
+   <div class="about__card">
+      <i class="ri-bar-chart-box-line"></i>
+      <span>Project Management</span>
+   </div>
+
+   <div class="about__card">
+      <i class="ri-settings-3-line"></i>
+      <span>Agile & Scrum</span>
+   </div>
+
+   <div class="about__card">
+      <i class="ri-team-line"></i>
+      <span>Team Collaboration</span>
+   </div>
+
+   <div class="about__card">
+      <i class="ri-bug-line"></i>
+      <span>Quality Assurance</span>
+   </div>
+
+   <div class="about__card">
+      <i class="ri-code-s-slash-line"></i>
+      <span>Web Development</span>
+   </div>
+
+   <div class="about__card">
+      <i class="ri-file-text-line"></i>
+      <span>Technical Documentation</span>
+   </div>
+</div>
+         </div>
+      </div> <!-- ✅ IMPORTANT: properly closed -->
+
+      <!-- RIGHT SIDE -->
+      <div class="about__image">
+         <img src="assets/img/Pimage.png" alt="image" class="about__img">
+      </div>
+
+   </div>
+</section>
+
+         <!--==================== PROJECTS ====================-->
+         <section class="projects section" id="projects">
+            <h2 class="section__title">Latest Projects</h2>
+
+            <div class="projects__container container grid">
+               <article class="projects__card">
+               <img src="assets/img/project-1.png" alt="image" class="projects__img">
+
+                  <div class="projects__data">
+                     <span class="projects__tag project__tag--ai">AI / Productivity</span>
+                     <h3 class="projects__title">CodeFlow AI - AI-Powered VS Code Extension</h3>
+                     <p class="projects__description">
+                     AI-powered VS Code extension for analyzing and improving developer productivity.
+                     </p>
+
+                  <!-- Buttons -->
+                     <div class="projects__buttons">
+                        <a href="https://github.com/CodeFlow-SUSL/codeflow-ai-susl.git" target="_blank" class="button">
+                        <i class="ri-github-fill"></i> GitHub
+                        </a>
+
+                        <a href="https://www.linkedin.com/posts/sewmini-kumaranayaka-b77631280_codeflowai-vscode-developerproductivity-ugcPost-7449132345833562112-ijRg?utm_source=share&utm_medium=member_desktop&rcm=ACoAAERvyEsBSb18aL3CXKMgMjjIzaoiJQpYxYY" target="_blank" class="button button__ghost">
+                        <i class="ri-external-link-line"></i> Live Demo
+                        </a>
+                     </div>
+                  </div>
+               </article>
+               <!--article class="projects__card">
+                  <img src="assets/img/project-1.png" alt="image" class="projects__img">
+
+                  <div class="projects__data">
+                     <span class="projects__tag project__tag--ai">AI / Productivity</span>
+                     <h3 class="projects__title">CodeFlow AI - AI-Powered VS Code Extension</h3>
+                     <p class="projects__description">AI-powered VS Code extension for analyzing and improving developer productivity.</p>
+                     <a href="project-codeflow-ai.html" class="button button__ghost">View Project</a>
+                  </div>
+               </article-->
+
+               <article class="projects__card">
+                  <img src="assets/img/project-4.png" alt="image" class="projects__img">
+
+                  <div class="projects__data">
+                     <span class="projects__tag project__tag--manage">AI/Web App</span>
+                     <h3 class="projects__title"> ML-Powered Diabetes Prediction System</h3>
+                     <p class="projects__description">A web application that helps predict the risk of diabetes based on user health information, 
+                        allowing quick and easy results through an interactive interface.
+                     </p>
+
+                     <!-- Buttons -->
+                     <div class="projects__buttons">
+                        <a href="https://github.com/sewminikumaranayaka/AI-Powered-Diabetes-Prediction-System.git" target="_blank" class="button">
+                        <i class="ri-github-fill"></i> GitHub
+                        </a>
+
+                        <a href="https://www.linkedin.com/posts/sewmini-kumaranayaka-b77631280_machinelearning-python-ai-ugcPost-7450918844648308736-B2Jt?utm_source=share&utm_medium=member_desktop&rcm=ACoAAERvyEsBSb18aL3CXKMgMjjIzaoiJQpYxYY" target="_blank" class="button button__ghost">
+                        <i class="ri-external-link-line"></i> Live Demo
+                        </a>
+                     </div>
+                  </div>
+               </article>
+
+               <article class="projects__card">
+                  <img src="assets/img/project-2.png" alt="image" class="projects__img">
+
+                  <div class="projects__data">
+                     <span class="projects__tag project__tag--manage">Project Supervision System</span>
+                     <h3 class="projects__title">Project Supervision Management System</h3>
+                     <p class="projects__description">PSMS is a web platform for managing academic projects, including group creation, 
+                        submissions, feedback, and progress tracking.</p>
+
+                     <!-- Buttons -->
+                     <div class="projects__buttons">
+                        <a href="https://github.com/web-projet-4th-sem/Email_MS.git" target="_blank" class="button">
+                        <i class="ri-github-fill"></i> GitHub
+                        </a>
+
+                        <a href="https://www.linkedin.com/posts/sewmini-kumaranayaka-b77631280_webdevelopment-mern-react-activity-7448757274379984896-tsIC?utm_source=share&utm_medium=member_desktop&rcm=ACoAAERvyEsBSb18aL3CXKMgMjjIzaoiJQpYxYY" target="_blank" class="button button__ghost">
+                        <i class="ri-external-link-line"></i> Live Demo
+                        </a>
+                     </div>
+                  </div>
+               </article>
+
+               <article class="projects__card">
+                  <img src="assets/img/project-3.png" alt="image" class="projects__img">
+
+                  <div class="projects__data">
+                     <span class="projects__tag project__tag--brand">Plant Website</span>
+                     <h3 class="projects__title">PlantZone - Responsive Plant Website</h3>
+                     <p class="projects__description">PlantZone is a fully responsive plant website that allows users to explore plants and view 
+                        their details through a clean and user-friendly interface built with modern web technologies.</p>
+                     
+                        <!-- Buttons -->
+                     <div class="projects__buttons">
+                        <a href="https://github.com/sewminikumaranayaka/PlantWebsite.git" target="_blank" class="button">
+                        <i class="ri-github-fill"></i> GitHub
+                        </a>
+
+                        <a href="https://www.linkedin.com/posts/sewmini-kumaranayaka-b77631280_html-css-javascript-ugcPost-7397305428696653824-9xQY?utm_source=share&utm_medium=member_desktop&rcm=ACoAAERvyEsBSb18aL3CXKMgMjjIzaoiJQpYxYY" target="_blank" class="button button__ghost">
+                        <i class="ri-external-link-line"></i> Live Demo
+                        </a>
+                     </div>
+                  </div>
+               </article>
+            </div>
+         </section>
+
+         <!--==================== RESUME ====================-->
+         <!--section class="resume section" id="resume">
+           <h2 class="section__title">My Resume</h2>
+           
+           <div class="resume__container container grid">
+            <div class="resume__content grid">
+               <h3 class="resume__subtitle">
+                  <i class="ri-award-fill"></i>
+                  <span>Experience</span>
+               </h3>
+
+               <div class="resume__list grid">
+                  <div class="resume__data">
+                     <h3 class="resume__title">Software Tester (Part - time)</h3>
+
+                     <div class="resume__info">
+                        <address>Kubegraf</address>
+                        <address>2026 January - Present</address>
+                     </div>
+
+                     <p class="resume__description">Tested website, application and Kubegraf product by performing functional, regression, 
+                        performance, and end-to-end testing, identifying and reporting bugs to improve system quality.</p>
+                  </div>
+
+                  <div class="resume__data">
+                     <h3 class="resume__title">Vice Chairperson</h3>
+
+                     <div class="resume__info">
+                        <address>IEEE WIE Affinity Group of Sabaragamuwa University of Sri Lanka</address>
+                        <address>2025 September - Present</address>
+                     </div>
+
+                     <p class="resume__description">Led and coordinated multiple initiatives, overseeing project execution from planning to 
+                        completion while managing proposals, communications, and team collaboration.</p>
+                  </div>
+
+                  <div class="resume__data">
+                     <h3 class="resume__title">Content Writer</h3>
+
+                     <div class="resume__info">
+                        <address>IEEE Sri Lanka Section</address>
+                        <address>2025 August - 2026 November</address>
+                     </div>
+
+                     <p class="resume__description">Created and managed content for spotlight, website updates, newsletters, 
+                        and final report to enhance engagement and communication.</p>
+                  </div> 
+
+                  <div class="resume__data">
+                     <h3 class="resume__title">ICT Technician</h3>
+
+                     <div class="resume__info">
+                        <address>Wickramaarachchi University of Indegenous Medicine</address>
+                        <address>2023 May - 2023 November</address>
+                     </div>
+
+                     <p class="resume__description">Provided technical and administrative support, including data management for 
+                        Mahapola and Bursary programs, document processing, and ICT system assistance.</p>
+                  </div>
+               </div>
+            </div>
+
+            <div class="resume__content grid">
+               <h3 class="resume__subtitle">
+                  <i class="ri-graduation-cap-fill"></i>
+                  <span>Education</span>
+               </h3>
+
+               <div class="resume__list grid">
+                  <div class="resume__data">
+                     <h3 class="resume__title">BSc (Hons) in Software Engineering</h3>
+
+                     <div class="resume__info">
+                        <address>Sabaragamuwa University of Sri Lanka</address>
+                        <address>2023 - Present</address>
+                     </div>
+
+                     <p class="resume__description">Focused on software development, programming fundamentals, databases, web application 
+                        development, artificial intelligence concepts, and software engineering practices with exposure to modern development 
+                        methodologies.</p>
+
+                     <p>GPA: 3.86 / 4.0</p>
+                  </div>
+
+                  <div class="resume__data">
+                     <h3 class="resume__title">Information Communication Technology Technician NVQ 4</h3>
+
+                     <div class="resume__info">
+                        <address>Technical College, Gampaha</address>
+                        <address>2022 - 2023</address>
+                     </div>
+
+                     <p class="resume__description">Completed training in computer hardware, software installation, networking fundamentals, 
+                        troubleshooting, operating systems, and office productivity tools, along with practical ICT support skills. The course 
+                        included knowledge assessments, practical assessments, and industrial training, all of which were successfully completed.
+                     </p>
+                     <p>NVQ Level 4 Certified</p>
+                  </div>
+
+                  <div class="resume__data">
+                     <h3 class="resume__title">Advanced Level - Physical Science Stream</h3>
+
+                     <div class="resume__info">
+                        <address>Rathnavali Balika Vidyalaya, Gampaha</address>
+                        <address>2018 - 2020</address>
+                     </div>
+
+                     <p class="resume__description">Studied Combined Mathematics, Physics, and Chemistry with strong focus on analytical and problem-solving 
+                        skills in physical sciences. </p>
+                        <p>Physics: A ;
+                           Chemistry: B;
+                           Combined Mathematics: B;
+                           General English: A
+                        </p>
+                  </div>
+               </div>
+            </div>
+           </div>
+         </section-->
+
+         <section class="resume section" id="resume">
+            <h2 class="section__title">Why Hire Me</h2>
+
+            <!-- Tabs -->
+            <div class="resume__tabs container">
+               <button class="resume__tab active-tab" data-target="experience">
+                  <i class="ri-award-fill"></i>
+                  <span>Experience</span>
+               </button>
+
+               <button class="resume__tab" data-target="education">
+                  <i class="ri-graduation-cap-fill"></i>
+                  <span>Education</span>
+               </button>
+
+               <button class="resume__tab" data-target="skills">
+                  <i class="ri-tools-line"></i>
+                  <span>Skills</span>
+               </button>
+
+               <button class="resume__tab" data-target="certifications">
+                  <i class="ri-medal-line"></i>
+                  <span>Certifications</span>
+               </button>
+
+               <button class="resume__tab" data-target="achievements">
+                  <i class="ri-trophy-line"></i>
+                  <span>Achievements</span>
+               </button>
+            </div>
+
+            <!-- Panels -->
+            <div class="resume__panels container">
+
+               <!-- EXPERIENCE -->
+            <div class="resume__panel active-panel" id="panel-experience">
+               <div class="experience__container"> 
+
+                  <div class="experience__item">
+                     <div class="experience__dot"></div>
+                     <div class="experience__content">
+                        <h3>Software Tester (Part-time)</h3>
+                        <span>Kubegraf • 2026 Jan – Present</span>
+                        <p>
+                           Test website, application and Kubegraf product by performing functional, regression, 
+                        performance, and end-to-end testing, identifying and reporting bugs to improve system quality.
+                        </p>
+                     </div>
+                  </div>
+
+                  <div class="experience__item">
+                     <div class="experience__dot"></div>
+                     <div class="experience__content">
+                        <h3>Vice Chairperson</h3>
+                        <span>IEEE WIE AG - SUSL • 2025 Sep – Present</span>
+                        <p>
+                           Lead and coordinate multiple initiatives, overseeing projects execution from planning to 
+                        completion while managing proposals, communications, and team collaboration.
+                        </p>
+                     </div>
+                  </div>
+
+                  <div class="experience__item">
+                     <div class="experience__dot"></div>
+                     <div class="experience__content">
+                        <h3>Content Writer</h3>
+                        <span>IEEE Sri Lanka Section • 2025 July – 2026 January</span>
+                        <p>
+                           Created and managed content for spotlight, website updates, newsletters, 
+                        and final report to enhance engagement and communication.
+                        </p>
+                     </div>
+                  </div>
+
+                  <div class="experience__item">
+                     <div class="experience__dot"></div>
+                     <div class="experience__content">
+                        <h3>ICT Technician</h3>
+                        <span>Gampaha Wickramaarachchi University of Indigenous Medicine • 2023 May – 2023 November</span>
+                        <p>
+                           Provided technical and administrative support, including data management for 
+                        Mahapola and Bursary programs, document processing, and ICT system assistance.
+                        </p>
+                     </div>
+                  </div>
+
+               </div>
+            </div>
+
+                  <!-- EDUCATION -->
+            <div class="resume__panel" id="panel-education">
+               <div class="experience__container"> 
+
+                  <div class="experience__item">
+                     <div class="experience__dot"></div>
+                     <div class="experience__content">
+                        <h3>BSc (Hons) Software Engineering</h3>
+                        <span>SUSL • 2023 – Present</span>
+                        <p>
+                           Focused on software development, programming fundamentals, databases, web application development, artificial 
+                           intelligence, and software engineering practices with exposure to modern development methodologies.
+                        </p>
+                        <p>GPA: 3.86 / 4.0</p>
+                     </div>
+                  </div>
+
+                  <div class="experience__item">
+                     <div class="experience__dot"></div>
+                     <div class="experience__content">
+                        <h3>NVQ Level 4 ICT Technician</h3>
+                        <span>Technical College Gampaha • 2022 – 2023</span>
+                        <p>
+                           Gained hands-on skills in operating systems, database management, networking, web development, and ICT system 
+                           support through practical training and assessments.
+                        </p>
+                        <p>Qualification Result: NVQ Level 4 Certified</p>
+                     </div>
+                  </div>
+
+                  <div class="experience__item">
+                     <div class="experience__dot"></div>
+                     <div class="experience__content">
+                        <h3>Advanced Level – Physical Science Stream</h3>
+                        <span>Rathnavali Girls College - Gampaha • 2018 – 2020</span>
+                        <p>
+                           Studied Combined Mathematics, Physics, and Chemistry with strong focus on analytical and problem-solving 
+                           skills in physical sciences.
+                        </p>
+                        <p>
+                           Physics: A ;
+                           Chemistry: B;
+                           Combined Mathematics: B;
+                           General English: A
+                        </p>
+                     </div>
+                  </div>
+
+               </div>
+            </div>
+               
+            <!-- SKILLS -->
+            <div class="resume__panel" id="panel-skills">
+
+               <!-- ===== Technical Skills ===== -->
+               <h3 class="skills__title">Technical Skills</h3>
+
+               <div class="skills__categories">
+
+                  <!-- Programming Languages -->
+                  <div class="skills__category">
+                     <h4>Programming Languages</h4>
+                     <p>C, Java, JavaScript, HTML, CSS, Python</p>
+                  </div>
+
+                  <!-- Frameworks -->
+                  <div class="skills__category">
+                     <h4>Frameworks & Libraries</h4>
+                     <p>ReactJS, Tailwind CSS, NodeJS</p>
+                  </div>
+
+                  <!-- Databases -->
+                  <div class="skills__category">
+                     <h4>Databases</h4>
+                     <p>MySQL, MongoDB</p>
+                  </div>
+
+                  <!-- Tools -->
+                  <div class="skills__category">
+                     <h4>Tools & Technologies</h4>
+                     <p>Trello, Jira, Asana, MS Project, ClickUp, Confluence, MS Office, Canva, IntelliJ IDEA, VS Code, Postman</p>
+                  </div>
+
+                  <!-- Version Control -->
+                  <div class="skills__category">
+                     <h4>Version Control</h4>
+                     <p>Git</p>
+                  </div>
+
+                  <!-- QA & Testing -->
+                  <div class="skills__category">
+                     <h4>QA & Testing</h4>
+                     <p>Manual Testing, Test Case Design, Bug Reporting, API Testing, Debugging</p>
+                  </div>
+
+                  <!-- Automation Testing -->
+                  <div class="skills__category">
+                     <h4>Automation Testing</h4>
+                     <p>Selenium, Cypress, Test Automation Concepts, Automated Test Scripts</p>
+                  </div>
+
+               </div>
+
+               <!-- ===== Soft Skills ===== -->
+               <h3 class="skills__title">Soft Skills</h3>
+
+               <div class="soft__skills">
+
+                  <div class="soft__item"><i class="ri-team-line"></i><span>Collaboration & Teamwork</span></div>
+
+                  <div class="soft__item"><i class="ri-chat-3-line"></i><span>Communication</span></div>
+
+                  <div class="soft__item"><i class="ri-focus-2-line"></i><span>Attention to Detail</span></div>
+
+                  <div class="soft__item"><i class="ri-lightbulb-line"></i><span>Problem Solving</span></div>
+
+                  <div class="soft__item"><i class="ri-refresh-line"></i><span>Adaptability</span></div>
+
+                  <div class="soft__item"><i class="ri-brain-line"></i><span>Analytical Thinking</span></div>
+
+                  <div class="soft__item"><i class="ri-star-smile-line"></i><span>Creativity & Innovation</span></div>
+
+                  <div class="soft__item"><i class="ri-user-heart-line"></i><span>Interpersonal Skills</span></div>
+
+               </div>
+
+            </div>
+
+               <!-- CERTIFICATIONS -->
+               <div class="resume__panel" id="panel-certifications">
+
+               <div class="cert__container">
+                  <div class="cert__grid">
+
+                     <!-- Certification 1 -->
+                     <a href="https://coursera.org/share/038793e3eb18cc5c40154d3a3a6505c3" target="_blank" class="cert__card">
+                        <i class="ri-link"></i>
+                        <div>
+                           <h3>Foundations of Project Management</h3>
+                           <span>Google</span>
+                        </div>
+                     </a>
+
+                     <!-- Certification 2 -->
+                     <a href="https://coursera.org/share/c895ce76632e7216f1664a5f51359364" target="_blank" class="cert__card">
+                        <i class="ri-link"></i>
+                        <div>
+                           <h3>Project Initiation: Starting a Successful Project</h3>
+                           <span>Google</span>
+                        </div>
+                     </a>
+
+                     <!-- Certification 3 -->
+                     <a href="https://coursera.org/share/e2ce9af92149c307803a8ba39c04c803" target="_blank" class="cert__card">
+                        <i class="ri-link"></i>
+                        <div>
+                           <h3>Project Planning: Putting It All Together</h3>
+                           <span>Google</span>
+                        </div>
+                     </a>
+
+                     <!-- Certification 4 -->
+                     <a href="https://coursera.org/share/9c24cf27e6bc5289e0d7aaaa7f42e398" target="_blank" class="cert__card">
+                        <i class="ri-link"></i>
+                        <div>
+                           <h3>Project Execution: Running the Project</h3>
+                           <span>Google</span>
+                        </div>
+                     </a>
+
+                     <!-- Certification 5 -->
+                     <a href="https://coursera.org/share/34b95107cdb9c99240c15adc92bd51ee" target="_blank" class="cert__card">
+                        <i class="ri-link"></i>
+                        <div>
+                           <h3>Agile Project Management</h3>
+                           <span>Google</span>
+                        </div>
+                     </a>
+
+                     <!-- Certification 6 -->
+                     <a href="https://www.credly.com/badges/1c12a957-eb2c-498e-9adc-a0145332215f/linked_in_profile" target="_blank" class="cert__card">
+                        <i class="ri-link"></i>
+                        <div>
+                           <h3>Generative AI Overview for Project Managers</h3>
+                           <span>PMI</span>
+                        </div>
+                     </a>
+
+                     <!-- Certification 7 -->
+                     <a href="https://api.badgr.io/public/assertions/z3f-LE19Tm2O_YWIe19rEg" target="_blank" class="cert__card">
+                        <i class="ri-link"></i>
+                        <div>
+                           <h3>Postman API Fundamentals Student Expert</h3>
+                           <span>Postman</span>
+                        </div>
+                     </a>
+
+                     <!-- Certification 8 -->
+                     <a href="https://www.linkedin.com/learning/certificates/7f9cc6c491e9ab359593e30c1cc95d875363fca891f119f9edc8492f1d34f8ca" target="_blank" class="cert__card">
+                        <i class="ri-link"></i>
+                        <div>
+                           <h3>Trello Essential Training</h3>
+                           <span>LinkedIn</span>
+                        </div>
+                     </a>
+
+                     <!-- Certification 9 -->
+                     <a href="https://www.linkedin.com/learning/certificates/30f4c2eec62c2bb5d12211bfc07866dde680b51ce1bacd8c02988fccc6a83cef?trk=share_certificate" target="_blank" class="cert__card">
+                        <i class="ri-link"></i>
+                        <div>
+                           <h3>Understanding Manual Testing</h3>
+                           <span>LinkedIn</span>
+                        </div>
+                     </a>
+
+                     <!-- Certification 10 -->
+                     <a href="https://www.linkedin.com/learning/certificates/ec1f80d7f892b0d95de2a25a395ca15f95c70ac520e71b2e558d9676822dd5e3?trk=share_certificate" target="_blank" class="cert__card">
+                        <i class="ri-link"></i>
+                        <div>
+                           <h3>Test Automation Foundations</h3>
+                           <span>LinkedIn</span>
+                        </div>
+                     </a>
+
+                  </div>
+               </div>
+
+            </div>
+
+               <!-- ACHIEVEMENTS -->
+            <div class="resume__panel" id="panel-achievements">
+
+               <div class="achieve__container">
+                  <div class="achieve__grid">
+
+                     <!-- Achievement 1 -->
+                     <a href="https://www.linkedin.com/posts/sewmini-kumaranayaka-b77631280_ieee-techxsrilanka2025-ieeecomputersociety-activity-7385483243397185537-yIOA?utm_source=share&utm_medium=member_desktop&rcm=ACoAAERvyEsBSb18aL3CXKMgMjjIzaoiJQpYxYY" target="_blank" class="achieve__card">
+                        <i class="ri-trophy-line"></i>
+                        <div>
+                           <h3>The Top Ambassador - TechX Sri Lanka 2025</h3>
+                           <span>Awarded for outstanding leadership and coordination as an ambassador, exceeding fellow university ambassadors, 
+                              and contributing to participant management and active involvement in national-level event execution.</span>
+                        </div>
+                     </a>
+
+                     <!-- Achievement 2 -->
+                     <a href="https://www.linkedin.com/posts/zeroplastic-sabaragamuwa_ecoboost-zeroplasticsusl-sustainability-activity-7409983514856632320--J-Q?utm_source=share&utm_medium=member_desktop&rcm=ACoAAERvyEsBSb18aL3CXKMgMjjIzaoiJQpYxYY" target="_blank" class="achieve__card">
+                        <i class="ri-trophy-line"></i>
+                        <div>
+                           <h3>Best ZeroPlastic Online Project of the Year Finalist</h3>
+                           <h3>Best Professional Development Project of the Year Finalist</h3>
+                           <span>Awarded as a finalist in multiple categories for the project 'ECO BOOST' for its impactful contribution 
+                              toward sustainability, where I contributed as an Event Coordinator, supporting team coordination and event 
+                              activities as part of the project execution.</span>
+                        </div>
+                     </a>
+
+                     <!-- Achievement 3 -->
+                     <a href="https://www.linkedin.com/posts/sewmini-kumaranayaka-b77631280_ieeextreme-190-programming-competition-activity-7448764611543187457-x-tY?utm_source=share&utm_medium=member_desktop&rcm=ACoAAERvyEsBSb18aL3CXKMgMjjIzaoiJQpYxYY" target="_blank" class="achieve__card">
+                        <i class="ri-award-line"></i>
+                        <div>
+                           <h3>IEEEXtreme 19.0 Programming Competition – Certificate of Participation</h3>
+                           <span>Awarded for representing Team Vistara in the global 24-hour coding competition, demonstrating strong 
+                              problem-solving, teamwork, and participation in a worldwide competitive programming event.</span>
+                        </div>
+                     </a>
+
+                     <!-- Achievement 4 -->
+                     <a href="https://www.linkedin.com/posts/sewmini-kumaranayaka-b77631280_ecocanvas2025-earthday2025-sustainability-activity-7347874457937461249-Lz4B?utm_source=share&utm_medium=member_desktop&rcm=ACoAAERvyEsBSb18aL3CXKMgMjjIzaoiJQpYxYY" target="_blank" class="achieve__card">
+                        <i class="ri-global-line"></i>
+                        <div>
+                           <h3>Eco Canvas Poster Competition 2025 – Certificate of Appreciation</h3>
+                           <span>Awarded in recognition of creativity and active participation in an Earth Day, themed poster competition,
+                              promoting environmental awareness and sustainability through artistic expression.</span>
+                        </div>
+                     </a>
+
+                  </div>
+               </div>
+
+            </div>
+         <!--==================== CONTACT ====================-->
+         <section class="contact section" id="contact">
+            <h2 class="section__title">Contact Me</h2>
+
+            <div class="contact__container container grid">
+               <form action="" class="contact__form grid" id="contact-form">
+                  <input type="text" placeholder="Names" name="user_name"required class="contact__input">
+                  <input type="email" placeholder="Email" name="user_email" required class="contact__input">
+                  <textarea placeholder="Message" name="user_message" required class="contact__input"></textarea>
+
+                  <button class="button" type="submit">Send Message</button>
+
+                  <p class="contact__message" id="contact-message"></p>
+               </form>
+
+               <div class="contact__content grid">
+                  <div class="contact__aside">
+                     <span>Ready to connect?</span>
+                     <p>I am an undergraduate actively seeking internship opportunities and professional experience. 
+                        Please feel free to contact me, and I will respond promptly.</p>
+                  </div>
+                  <div class="contact__data grid">
+                     <address class="contact__address">
+                        <i class="ri-mail-fill"></i>
+                        <span>sewminikumaranayaka13@gmail.com</span>
+                     </address>
+
+                     <address class="contact__address">
+                        <i class="ri-phone-fill"></i>
+                        <span>+94 70 200 1614</span>
+                     </address>
+
+                     <address class="contact__address">
+                        <i class="ri-map-pin-fill"></i>
+                        <span>Colombo, Sri Lanka</span>
+                     </address>
+                  </div>
+
+                     <address class="contact__address">
+                        <i class="ri-whatsapp-fill"></i>
+                        <span>+94 70 200 1614</span>
+                     </address>
+                  </div>
+            </div>
+         </section>
+      </main>
+
+      <!--==================== FOOTER ====================-->
+      <footer class="footer">
+         <div class="footer__container container grid">
+            <a href="#" class="footer__logo">Sewmini Kumaranayaka</a>
+
+            <div class="footer__links">
+               <a href="#home" class="footer__link">Home</a>
+
+               <a href="#about" class="footer__link">About</a>
+
+               <a href="#projects" class="footer__link">Projects</a>
+            </div>
+
+            <div class="footer__social">
+               <a href="https://www.linkedin.com/in/sewmini-kumaranayaka-b77631280/" target="_blank" class="footer__social-link">
+                  <i class="ri-linkedin-box-fill"></i>
+               </a>
+
+               <a href="https://github.com/sewminikumaranayaka" target="_blank" class="footer__social-link">
+                  <i class="ri-github-fill"></i>
+               </a>
+
+               <a href="https://medium.com/@sewminikumaranayaka13" target="_blank" class="footer__social-link">
+                  <i class="ri-medium-line"></i>
+               </a>
+            </div>
+         </div>
+         <span class="footer__copy">
+            &#169; All Rights Reserved By Sewmini Kumaranayaka
+
+         </span>
+      </footer>
+
+      <!--========== SCROLL UP ==========-->
+      <a href="#" class="scrollup" id="scroll-up">
+         <i class="ri-arrow-up-line"></i>
+      </a>
+
+      <!--=============== SCROLLREVEAL ===============-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js"></script>
+
+      <!--=============== TYPED JS ===============-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.min.js"></script>
+
+      <!--=============== EMAIL JS ===============-->
+      <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+      <!--=============== MAIN JS ===============-->
+      <script src="assets/js/main.js"></script>
+   </body>
+</html>
