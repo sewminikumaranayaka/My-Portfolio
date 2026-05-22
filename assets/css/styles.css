@@ -509,6 +509,8 @@ a {
   line-height: 1.8;
   max-width: 38rem;
   margin-inline: auto;
+  text-align: justify;
+  text-align-last: center;
 }
 
 .about__subtitle {
@@ -1114,7 +1116,7 @@ a {
   }
 
   .about__container {
-    grid-template-columns: 1.05fr 0.95fr;
+    grid-template-columns: 1fr;
     align-items: center;
     column-gap: 3rem;
   }
@@ -1474,7 +1476,7 @@ a {
 @media screen and (min-width: 768px) {
   .about__container {
     display: grid;
-    grid-template-columns: 1fr 0.9fr;
+    grid-template-columns: 1fr;
     align-items: center;
     column-gap: 3rem;
   }
